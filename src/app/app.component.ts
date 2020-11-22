@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   username: string = '';
+  allowUsernameReset: boolean = 'username === ""';
 
   onUsernameReset() {
     this.username = '';
